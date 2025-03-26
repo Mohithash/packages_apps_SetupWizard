@@ -9,22 +9,20 @@ package org.lineageos.setupwizard;
 import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_3BUTTON_OVERLAY;
 import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_GESTURAL_OVERLAY;
 
-import static com.android.systemui.shared.recents.utilities.Utilities.isLargeScreen;
-
 import static org.lineageos.setupwizard.SetupWizardApp.NAVIGATION_OPTION_KEY;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
+import android.content.Context;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.SystemProperties;
 import android.os.UserHandle;
-import android.content.Context;
-import android.content.res.Resources;
+import android.provider.Settings;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.provider.Settings;
 
 import com.airbnb.lottie.LottieAnimationView;
 

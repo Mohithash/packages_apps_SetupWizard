@@ -7,15 +7,11 @@
 
 package org.lineageos.setupwizard;
 
-import static android.os.Binder.getCallingUserHandle;
-import static android.os.UserHandle.USER_CURRENT;
 
 import static org.lineageos.setupwizard.SetupWizardApp.LOGV;
-import static org.lineageos.setupwizard.SetupWizardApp.NAVIGATION_OPTION_KEY;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
-import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.res.Resources;
 import android.os.Bundle;
