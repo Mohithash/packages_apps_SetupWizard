@@ -31,10 +31,10 @@
     <string name="setup_location">Standortdienste</string>
     <string name="location_access_summary"><b>Erlaubt Apps, die um deine Erlaubnis gebeten haben, </b>deine Standortinformationen zu verwenden. Dies können Informationen zu deinem aktuellen Standort und zu vergangenen Standorten sein.</string>
     <string name="location_agps_access_summary">Wenn die Standortbestimmung eingeschaltet ist, kannst du <b>Satellitenhilfsdaten aus dem Internet herunterladen</b>, wodurch der Startvorgang von GPS deutlich beschleunigt werden kann.</string>
-    <string name="update_recovery_title">Lineage-Recovery aktualisieren</string>
-    <string name="update_recovery_description">Aktualisiert das Lineage-Recovery-Image beim ersten Start nach jedem Update.</string>
+    <string name="update_recovery_title">Voltage-Recovery aktualisieren</string>
+    <string name="update_recovery_description">Aktualisiert das Voltage-Recovery-Image beim ersten Start nach jedem Update.</string>
     <string name="update_recovery_warning">Das Recovery-Image wird aktualisiert, sobald du die Einrichtung abgeschlossen hast. Wenn es unverändert bleiben soll, deaktiviere diese Funktion.</string>
-    <string name="update_recovery_setting">Lineage-Recovery zusammen mit dem Betriebssystem aktualisieren</string>
+    <string name="update_recovery_setting">Voltage-Recovery zusammen mit dem Betriebssystem aktualisieren</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_services">VoltageOS-Funktionen</string>
     <string name="services_pp_explanation">Diese Dienste werden verwendet, um die Funktionen deines Gerätes zu erweitern. Deine Daten werden in Übereinstimmung mit der <xliff:g id="name" example="VoltageOS">%1$s</xliff:g> Datenschutzerklärung verwendet.</string>

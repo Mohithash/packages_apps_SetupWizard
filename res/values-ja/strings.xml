@@ -31,10 +31,10 @@
     <string name="setup_location">位置情報サービス</string>
     <string name="location_access_summary">位置情報を使用する<b>権限を求めてきたアプリを許可します</b>。現在の位置情報と過去の位置情報を含む可能性があります。</string>
     <string name="location_agps_access_summary">位置情報がオンの場合、<b>インターネットから衛星支援データをダウンロード</b>して GPS 始動時の性能を大幅に向上させます。</string>
-    <string name="update_recovery_title">Lineage Recovery をアップデート</string>
-    <string name="update_recovery_description">毎回のアップデートの最初の起動時に Lineage Recovery をアップデートします</string>
+    <string name="update_recovery_title">Voltage Recovery をアップデート</string>
+    <string name="update_recovery_description">毎回のアップデートの最初の起動時に Voltage Recovery をアップデートします</string>
     <string name="update_recovery_warning">設定が完了したらすぐにリカバリーがアップデートされます。そのまま維持したい場合は、この機能を無効にしてください。</string>
-    <string name="update_recovery_setting">OS と一緒に Lineage Recovery をアップデートする</string>
+    <string name="update_recovery_setting">OS と一緒に Voltage Recovery をアップデートする</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_services">VoltageOS の機能</string>
     <string name="services_pp_explanation">これらのサービスはデバイスの機能を拡張するために動作します。データは <xliff:g id="name" example="VoltageOS">%1$s</xliff:g> のプライバシーポリシーに従って使用されます。</string>

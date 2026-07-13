@@ -29,10 +29,10 @@
     <string name="setup_location">Konum servisleri</string>
     <string name="location_access_summary"><b>Konum bilginizi isteyen uygulamalara izin ver.</b> Bu geçerli konumunuzu ve geçmiş konumlarınızı içerebilir.</string>
     <string name="location_agps_access_summary">GPS\'inizin başlama süresini büyük ölçüde hızlandırmak için &lt;b&gt;internetten uydu yardım verilerini indirin.&lt;b&gt;</string>
-    <string name="update_recovery_title">Lineage Kurtarma Modunu Güncelle</string>
-    <string name="update_recovery_description">Her güncellemeden sonraki ilk açılışta Lineage Kurtarma Modunu günceller.</string>
+    <string name="update_recovery_title">Voltage Kurtarma Modunu Güncelle</string>
+    <string name="update_recovery_description">Her güncellemeden sonraki ilk açılışta Voltage Kurtarma Modunu günceller.</string>
     <string name="update_recovery_warning">Kurulum tamamlanır tamamlanmaz kurtarma modu güncellenecektir. Olduğu gibi kalmasını istiyorsanız, bu özelliği devre dışı bırakın.</string>
-    <string name="update_recovery_setting">İşletim Sistemi ile birlikte Lineage Kurtarma Modunu güncelleyin</string>
+    <string name="update_recovery_setting">İşletim Sistemi ile birlikte Voltage Kurtarma Modunu güncelleyin</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_services">VoltageOS özellikleri</string>
     <string name="services_pp_explanation">Bu hizmetler, cihazınızın özelliklerini genişletmeniz için çalışır. Veri <xliff:g id="name" example="VoltageOS">%1$s</xliff:g>\'un gizlilik politikası ile kullanılacaktır.</string>

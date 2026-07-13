@@ -27,10 +27,10 @@
     <string name="intro_restore_button">Aisig o lethbhreac-glèidhidh</string>
     <string name="setup_location">Seirbheisean ionaid</string>
     <string name="location_access_summary"><b>Leig le aplacaidean a dh’iarr cead uat</b> fiosrachadh mu d’ ionad a chleachdadh. Dh’fhaoidte gun gabh seo a-staigh an dà chuid d’ ionad làithreach agus far an robh thu roimhe.</string>
-    <string name="update_recovery_title">Ùraich aiseag Lineage</string>
-    <string name="update_recovery_description">Ùraichidh seo aiseag Lineage air a’ chiad bhùtadh às dèidh gach ùrachadh.</string>
+    <string name="update_recovery_title">Ùraich aiseag Voltage</string>
+    <string name="update_recovery_description">Ùraichidh seo aiseag Voltage air a’ chiad bhùtadh às dèidh gach ùrachadh.</string>
     <string name="update_recovery_warning">Thèid an t-aiseag ùrachadh cho luath ’s a bhios tu deiseil leis an t-suidheachadh. Ma tha thu airson a chumail mar a bha e, cuir an gleus seo à comas.</string>
-    <string name="update_recovery_setting">Ùraich aiseag Lineage leis an t-siostam obrachaidh</string>
+    <string name="update_recovery_setting">Ùraich aiseag Voltage leis an t-siostam obrachaidh</string>
     <string name="setup_services">Gleusan VoltageOS</string>
     <string name="services_pp_explanation">Leudaichidh na seirbheisean seo comasan an uidheim agad. Thèid an dàta a chleachdadh a-rèir poileasaidh prìobhaideachd <xliff:g id="name" example="VoltageOS">%1$s</xliff:g>.</string>
     <string name="services_find_privacy_policy">’S urrainn dhut am poileasaidh a leughadh air uidheam eile is tu a’ tadhal air <xliff:g id="uri" example="https://lineageos.org/legal">%1$s</xliff:g></string>

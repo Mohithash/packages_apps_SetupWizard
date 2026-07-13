@@ -31,10 +31,10 @@
     <string name="setup_location">Службы местоположения</string>
     <string name="location_access_summary"><b>Разрешить приложениям, запросившим ваше разрешение</b>, использовать информацию о вашем местоположении. Это может включать ваше текущее и прошлые местоположения.</string>
     <string name="location_agps_access_summary">При включении определения местоположения <b>из интернета будут загружаться вспомогательные спутниковые данные</b>. Это поможет значительно ускорить подключение к GPS.</string>
-    <string name="update_recovery_title">Обновление Lineage Recovery</string>
-    <string name="update_recovery_description">Lineage Recovery обновляется при первой загрузке после обновления.</string>
+    <string name="update_recovery_title">Обновление Voltage Recovery</string>
+    <string name="update_recovery_description">Voltage Recovery обновляется при первой загрузке после обновления.</string>
     <string name="update_recovery_warning">После установки будет выполнено обновление Recovery. Вы можете отключить эту возможность.</string>
-    <string name="update_recovery_setting">Обновлять Lineage Recovery  вместе с ОС</string>
+    <string name="update_recovery_setting">Обновлять Voltage Recovery  вместе с ОС</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_services">Возможности VoltageOS</string>
     <string name="services_pp_explanation">Эти службы работают, чтобы расширить возможности вашего устройства. Данные будут использоваться в соответствии с политикой конфиденциальности <xliff:g id="name" example="VoltageOS">%1$s</xliff:g>.</string>

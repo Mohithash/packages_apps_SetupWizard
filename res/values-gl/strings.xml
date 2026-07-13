@@ -27,10 +27,10 @@
     <string name="intro_restore_button">Restaurar dende a copia de seguranza</string>
     <string name="setup_location">Servizos de localización</string>
     <string name="location_access_summary"><b>Permite que as aplicacións se teñen o teu permiso</b> utilicen a información sobre a túa localización, o que pode incluír á presente e ás pasadas.</string>
-    <string name="update_recovery_title">Actualizar Recuperador de Lineage</string>
-    <string name="update_recovery_description">Actualiza o Recuperador do Lineage no primeiro arranque despois de cada actualización.</string>
+    <string name="update_recovery_title">Actualizar Recuperador de Voltage</string>
+    <string name="update_recovery_description">Actualiza o Recuperador do Voltage no primeiro arranque despois de cada actualización.</string>
     <string name="update_recovery_warning">O Recuperador actualizarase axiña que remates a configuración. Se desexas mantelo intacto, desactiva esta función.</string>
-    <string name="update_recovery_setting">Actualizar o Recuperador de Lineage xunto co sistema operativo</string>
+    <string name="update_recovery_setting">Actualizar o Recuperador de Voltage xunto co sistema operativo</string>
     <string name="setup_services">Actualizacións de VoltageOS</string>
     <string name="services_pp_explanation">Estes servizos serven para mellorar as capacidades do seu dispositivo. Os datos utilizaranse de acordo coa <xliff:g id="name" example="Politica de privacidade">%1$s</xliff:g> de VoltageOS</string>
     <string name="services_find_privacy_policy">Podes ler a política de privacidade noutro dispositivo visitando <xliff:g id="uri" example="https://lineageos.org/legal">%1$s</xliff:g></string>

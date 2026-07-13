@@ -29,10 +29,10 @@
     <string name="intro_restore_button">Adfer o gopi wrth gefn</string>
     <string name="setup_location">Gwasanaethau lleoliad</string>
     <string name="location_access_summary"><b>Caniatáu i apiau sydd wedi gofyn am dy ganiatâd</b> medru defnyddio gwybodaeth dy leoliad. Gall hyn gynnwys dy leoliad cyfredol a lleoliadau yn y gorffennol.</string>
-    <string name="update_recovery_title">Diweddaru Modd Adfer Lineage </string>
-    <string name="update_recovery_description">Mae\'n diweddaru Lineage Recovery wrth y cychwyn cyntaf wedi pob diweddariad.</string>
+    <string name="update_recovery_title">Diweddaru Modd Adfer Voltage </string>
+    <string name="update_recovery_description">Mae\'n diweddaru Voltage Recovery wrth y cychwyn cyntaf wedi pob diweddariad.</string>
     <string name="update_recovery_warning">Caiff Recovery ei ddiweddaru yn syth ar ôl cwblhau\'r gosod. Os hoffet ti ei gadw\'n gyfan, analluoga\'r nodwedd hon.</string>
-    <string name="update_recovery_setting">Diweddaru Lineage Recovery ochr yn ochr â\'r OS</string>
+    <string name="update_recovery_setting">Diweddaru Voltage Recovery ochr yn ochr â\'r OS</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_services">Nodweddion VoltageOS</string>
     <string name="services_pp_explanation">Mae\'r gwasanaethau hyn yn gweithio i ti fedru ymestyn gallu dy ddyfais. Caiff data ei ddefnyddio yn ôl polisi preifatrwydd <xliff:g id="name" example="VoltageOS">%1$s</xliff:g>.</string>

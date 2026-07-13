@@ -31,10 +31,10 @@
     <string name="setup_location">Servizis di localizazion</string>
     <string name="location_access_summary"><b>Permet aes aplicazions che a àn domandât la tô autorizazion</b> di doprâ informazions su la tô posizion. Chest al pues includi la tô posizion atuâl e chês di prime.</string>
     <string name="location_agps_access_summary">Cuant che la gjeolocalizazion e je ative, <b>discjame di internet i dâts di assistence satelitâr</b>, che a puedin miorâ une vore lis prestazions di inviament dal GPS.</string>
-    <string name="update_recovery_title">Inzorne Recovery di Lineage</string>
-    <string name="update_recovery_description">Al inzorne il Recovery di Lineage al prin inviament sucessîf di ogni inzornament.</string>
+    <string name="update_recovery_title">Inzorne Recovery di Voltage</string>
+    <string name="update_recovery_description">Al inzorne il Recovery di Voltage al prin inviament sucessîf di ogni inzornament.</string>
     <string name="update_recovery_warning">Recovery al vignarà inzornât a pene che tu finissis la configurazion. Se tu desideris tignîlu intat, disative cheste funzionalitât.</string>
-    <string name="update_recovery_setting">Inzorne il Recovery di Lineage adun cul SO</string>
+    <string name="update_recovery_setting">Inzorne il Recovery di Voltage adun cul SO</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_services">Funzionalitâts di VoltageOS</string>
     <string name="services_pp_explanation">Chescj servizis a funzionin par slargjâ lis funzionalitâts dal to dispositîf. I dâts a vignaran doprâts in conformitât cu la informative su la riservatece di <xliff:g id="name" example="VoltageOS">%1$s</xliff:g>.</string>

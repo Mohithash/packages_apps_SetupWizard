@@ -28,10 +28,10 @@
     <string name="intro_restore_button">Restaurar a partir de cópia de segurança</string>
     <string name="setup_location">Serviços de localização</string>
     <string name="location_access_summary"><b>Permitir que as aplicações que pediram a sua permissão</b> usem as suas informações de localização. Isso pode incluir a sua localização atual bem como localizações anteriores.</string>
-    <string name="update_recovery_title">Atualizar a recuperação Lineage</string>
-    <string name="update_recovery_description">Atualiza a recuperação Lineage na primeira inicialização subsequente a cada atualização.</string>
+    <string name="update_recovery_title">Atualizar a recuperação Voltage</string>
+    <string name="update_recovery_description">Atualiza a recuperação Voltage na primeira inicialização subsequente a cada atualização.</string>
     <string name="update_recovery_warning">A recuperação será atualizada assim que terminar a configuração. Se desejar mantê-la intacta, desative esta opção.</string>
-    <string name="update_recovery_setting">Atualizar a recuperação Lineage aquando a atualização do SO</string>
+    <string name="update_recovery_setting">Atualizar a recuperação Voltage aquando a atualização do SO</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_services">Funcionalidades VoltageOS</string>
     <string name="services_pp_explanation">Estes serviços servem para ampliar os recursos do seu telefone. Os dados serão utilizados em conformidade com a politica de privacidade de <xliff:g id="name" example="VoltageOS">%1$s</xliff:g>.</string>

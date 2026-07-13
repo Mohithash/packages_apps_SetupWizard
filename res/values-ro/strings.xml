@@ -31,10 +31,10 @@
     <string name="setup_location">Servicii de localizare</string>
     <string name="location_access_summary"><b>Permite aplicațiilor care au cerut permisiunea</b> să utilizeze informațiile despre locația dvs. Aceasta poate include locația curentă și locațiile precedente.</string>
     <string name="location_agps_access_summary">Când locația este activată, <b>descarcă date de asistență prin satelit de pe internet</b>, ceea ce poate îmbunătăți considerabil performanța de pornire a GPS-ului.</string>
-    <string name="update_recovery_title">Actualizează Lineage Recovery</string>
-    <string name="update_recovery_description">Actualizează Lineage Recovery la prima pornire după fiecare actualizare.</string>
+    <string name="update_recovery_title">Actualizează Voltage Recovery</string>
+    <string name="update_recovery_description">Actualizează Voltage Recovery la prima pornire după fiecare actualizare.</string>
     <string name="update_recovery_warning">Meniul de recuperare va fi actualizat imediat ce terminați configurarea. Dacă doriți să îl păstrați intact, dezactivați această caracteristică.</string>
-    <string name="update_recovery_setting">Actualizați Lineage Recovery alături de OS</string>
+    <string name="update_recovery_setting">Actualizați Voltage Recovery alături de OS</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_services">Caracteristici VoltageOS</string>
     <string name="services_pp_explanation">Aceste servicii lucrează pentru dvs. pentru a extinde capabilitățile dispozitivului. Datele vor fi utilizate în concordanță cu politica de confidențialitate a <xliff:g id="name" example="VoltageOS">%1$s</xliff:g>.</string>

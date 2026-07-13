@@ -31,10 +31,10 @@
     <string name="setup_location">Shërbimet e vendndodhjes</string>
     <string name="location_access_summary"><b> Lejo programe që kanë kërkuar lejen tënde</b> të përdorin informacionin mbi vendndodhjen tuaj. Kjo mund të përfshijë vendndodhjen tuaj aktuale dhe vendodhje tuajat të mëparshme.</string>
     <string name="location_agps_access_summary">Kur vendndodhja është aktive, <b>shkarko të dhënat e ndihmës satelitore nga interneti</b>, të cilat mund të përmirësojnë shumë performancën e nisjes së GPS-së.</string>
-    <string name="update_recovery_title">Përditësoni rikuperimin e Lineage</string>
-    <string name="update_recovery_description">Përditëson Rikuperimin e Lineage në boot-in e parë pas çdo përditësimi.</string>
+    <string name="update_recovery_title">Përditësoni rikuperimin e Voltage</string>
+    <string name="update_recovery_description">Përditëson Rikuperimin e Voltage në boot-in e parë pas çdo përditësimi.</string>
     <string name="update_recovery_warning">Rikuperimi do të përditësohet sapo të keni mbaruar konfigurimin. Nëse dëshironi ta mbani të paprekur, mbylleni këtë veçori.</string>
-    <string name="update_recovery_setting">Përditësoni rikuperimin Lineage krahas OS</string>
+    <string name="update_recovery_setting">Përditësoni rikuperimin Voltage krahas OS</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_services">Funksionet e VoltageOS</string>
     <string name="services_pp_explanation">Këto shërbime punojnë për ju për të zgjeruar aftësitë e pajisjes tuaj. Të dhënat do të përdoren në përputhje me <xliff:g id="name" example="VoltageOS">%1$s</xliff:g> politikës së privatësisë</string>

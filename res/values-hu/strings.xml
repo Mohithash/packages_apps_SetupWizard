@@ -31,10 +31,10 @@
     <string name="setup_location">Helymeghatározó szolgáltatások</string>
     <string name="location_access_summary"><b>Lehetővé teszi az alkalmazás számára, amely korábban engedélyt kért,</b> a helymeghatározási információ használatára. Beleértve a jelenlegi és a korábbi helyeket.</string>
     <string name="location_agps_access_summary">Ha a helymeghatározás be van kapcsolva, <b>töltse le a műholdsegítő adatokat az internetről</b>, ez nagy mértékben javíthatja a GPS indítási teljesítményét.</string>
-    <string name="update_recovery_title">A Lineage Recovery frissítése</string>
-    <string name="update_recovery_description">Frissíti a Lineage Recovery-t minden frissítés utáni első indításkor.</string>
+    <string name="update_recovery_title">A Voltage Recovery frissítése</string>
+    <string name="update_recovery_description">Frissíti a Voltage Recovery-t minden frissítés utáni első indításkor.</string>
     <string name="update_recovery_warning">A Recovery frissítésre kerül, amint befejeződött a telepítést. Ha érintetlenül akarja hagyni, tiltsa le ezt a funkciót.</string>
-    <string name="update_recovery_setting">A Lineage Recovery frissítése az operációs rendszer mellett</string>
+    <string name="update_recovery_setting">A Voltage Recovery frissítése az operációs rendszer mellett</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_services">VoltageOS újítások</string>
     <string name="services_pp_explanation">Ezek a szolgáltatások Önért dolgoznak, hogy kibővítsék telefonja képességeit. Az adatok felhasználása a <xliff:g id="name" example="VoltageOS">%1$s</xliff:g> adatvédelmi szabályzata alapján történik.</string>

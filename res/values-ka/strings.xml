@@ -31,10 +31,10 @@
     <string name="setup_location">მდებარეობის მომსახურებები</string>
     <string name="location_access_summary"><b>ნების დართვა იმ აპებისთვის, რომელთაც ითხოვეს</b> თქვენი მდებარეობის მონაცემთა გამოყენების უფლება. შესაძლოა მოიცავდეს როგორც მიმდინარე, ასევე წარსული მდებარეობის მონაცემებსაც.</string>
     <string name="location_agps_access_summary">მდებარეობა როცა ჩართულია, <b>ინტერნეტიდან ჩამოიტვირთება დამხმარე თანამგზავრული მონაცემები</b>, რომლებიც მეტად აუმჯობესებს შედეგიანობას GPS-ის ამუშავებისთანავე.</string>
-    <string name="update_recovery_title">Lineage-აღმდგენის განახლება</string>
-    <string name="update_recovery_description">განაახლებს Lineage-აღმდგენს პირველი ჩატვირთვისას, ყოველი განახლების შემდგომ.</string>
+    <string name="update_recovery_title">Voltage-აღმდგენის განახლება</string>
+    <string name="update_recovery_description">განაახლებს Voltage-აღმდგენს პირველი ჩატვირთვისას, ყოველი განახლების შემდგომ.</string>
     <string name="update_recovery_warning">აღმდგენი განახლდება გამართვის დასრულებისთანავე. თუ გსურთ, ხელუხლებელი დარჩეს, გათიშეთ ეს შესაძლებლობა.</string>
-    <string name="update_recovery_setting">განახლდეს Lineage-აღმდგენი სისტემასთან ერთად</string>
+    <string name="update_recovery_setting">განახლდეს Voltage-აღმდგენი სისტემასთან ერთად</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_services">VoltageOS-ს შესაძლებლობები</string>
     <string name="services_pp_explanation">ამ მომსახურებების მუშაობა აფართოებს თქვენი მოწყობილობების შესაძლებლობებს. მონაცემებით სარგებლობის პირობებს განსაზღვრავს <xliff:g id="name" example="VoltageOS">%1$s</xliff:g> მისი პირადულობის დებულებით.</string>

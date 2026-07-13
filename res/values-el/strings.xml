@@ -31,10 +31,10 @@
     <string name="setup_location">Υπηρεσίες τοποθεσίας</string>
     <string name="location_access_summary"><b>Επιτρέπει σε εφαρμογές που έχουν ζητήσει την άδειά σας</b> να χρησιμοποιήσουν τις πληροφορίες τοποθεσίας σας. Αυτό μπορεί να περιλαμβάνει την τρέχουσα και τις προηγούμενες τοποθεσίες σας.</string>
     <string name="location_agps_access_summary">Όταν η τοποθεσία είναι ενεργοποιημένη, <b>λήψη δεδομένων δορυφορικής βοήθειας από το διαδίκτυο</b>, τα οποία μπορούν να βελτιώσουν σημαντικά την απόδοση εκκίνησης GPS.</string>
-    <string name="update_recovery_title">Ενημέρωση Lineage Recovery</string>
-    <string name="update_recovery_description">Ενημέρωση της Lineage Recovery στην πρώτη εκκίνηση μετά από κάθε ενημέρωση.</string>
+    <string name="update_recovery_title">Ενημέρωση Voltage Recovery</string>
+    <string name="update_recovery_description">Ενημέρωση της Voltage Recovery στην πρώτη εκκίνηση μετά από κάθε ενημέρωση.</string>
     <string name="update_recovery_warning">Η Recovery θα ενημερωθεί μόλις ολοκληρώσετε τη ρύθμιση. Αν θέλετε να κρατήσετε την τρέχουσα recovery, απενεργοποιήστε αυτή την επιλογή.</string>
-    <string name="update_recovery_setting">Ενημέρωση Lineage Recovery παράλληλα με το λειτουργικό σύστημα</string>
+    <string name="update_recovery_setting">Ενημέρωση Voltage Recovery παράλληλα με το λειτουργικό σύστημα</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_services">Χαρακτηριστικά VoltageOS</string>
     <string name="services_pp_explanation">Οι υπηρεσίες αυτές έχουν σκοπό να επεκτείνουν τις δυνατότητες της συσκευής σας. Τα δεδομένα θα χρησιμοποιηθούν σύμφωνα με την πολιτική απορρήτου του <xliff:g id="name" example="VoltageOS">%1$s</xliff:g>.</string>

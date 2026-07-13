@@ -26,10 +26,10 @@
     <string name="intro_restore_title">Відновіть застосунки й дані</string>
     <string name="setup_location">Служби позиціювання</string>
     <string name="location_access_summary"><b>Дозволити програмам, котрі запитали вашого дозволу</b> використовувати інформацію, щодо вашого місцезнаходження. Це може бути як ваше поточне, так і минулі розташування.</string>
-    <string name="update_recovery_title">Оновлювати режим відновлення Lineage</string>
-    <string name="update_recovery_description">Оновлює режим відновлення Lineage за першого запуску після кожного оновлення.</string>
+    <string name="update_recovery_title">Оновлювати режим відновлення Voltage</string>
+    <string name="update_recovery_description">Оновлює режим відновлення Voltage за першого запуску після кожного оновлення.</string>
     <string name="update_recovery_warning">Режим відновлення оновиться, щойно ви завершите налаштування. Якщо ви хочете зберегти наявний режим оновлення, вимкніть цю функцію.</string>
-    <string name="update_recovery_setting">Оновлювати режим відновлення Lineage разом з ОС</string>
+    <string name="update_recovery_setting">Оновлювати режим відновлення Voltage разом з ОС</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_services">Функції VoltageOS</string>
     <string name="services_pp_explanation">Ці служби працюють задля розширення підтримки вашого пристрою. Використання даних обмежується політикою приватності <xliff:g id="name" example="VoltageOS">%1$s</xliff:g>.</string>

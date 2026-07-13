@@ -31,10 +31,10 @@
     <string name="setup_location">Dịch vụ vị trí</string>
     <string name="location_access_summary"><b>Cho phép những ứng dụng đã hỏi quyền</b> sử dụng thông tin vị trí của bạn. Những thông tin này có thể bao gồm vị trí hiện tại và trước đó của bạn.</string>
     <string name="location_agps_access_summary">Khi vị trí được bật, hãy <b>tải xuống dữ liệu hỗ trợ vệ tinh từ internet</b>, dữ liệu này có thể cải thiện đáng kể hiệu suất khởi động GPS.</string>
-    <string name="update_recovery_title">Cập nhật Lineage Recovery</string>
-    <string name="update_recovery_description">Cập nhật Lineage Recovery khi bật máy lần đầu sau mỗi bản cập nhật.</string>
+    <string name="update_recovery_title">Cập nhật Voltage Recovery</string>
+    <string name="update_recovery_description">Cập nhật Voltage Recovery khi bật máy lần đầu sau mỗi bản cập nhật.</string>
     <string name="update_recovery_warning">Recovery sẽ được cập nhật sau khi bạn hoàn thành cài đặt. Nếu bạn muốn giữ nguyên, hãy tắt tính năng này.</string>
-    <string name="update_recovery_setting">Cập nhật Lineage Recovery song song với hệ điều hành</string>
+    <string name="update_recovery_setting">Cập nhật Voltage Recovery song song với hệ điều hành</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_services">Các tính năng VoltageOS</string>
     <string name="services_pp_explanation">Các dịch vụ này giúp bạn mở rộng khả năng của thiết bị. Dữ liệu sẽ được sử dụng theo chính sách bảo mật của <xliff:g id="name" example="VoltageOS">%1$s</xliff:g>.</string>

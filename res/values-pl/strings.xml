@@ -31,10 +31,10 @@
     <string name="setup_location">Usługi lokalizacyjne</string>
     <string name="location_access_summary"><b>Zezwalaj aplikacjom, które zapytały cię o zezwolenie</b> do używania informacji o twojej lokalizacji. Może to obejmować twoje poprzednie, ale i bieżącą lokalizację.</string>
     <string name="location_agps_access_summary">Gdy lokalizacja jest włączona, <b>pobierz dane pomocy satelitarnej z internetu</b>, co może znacznie poprawić wydajność uruchamiania GPS.</string>
-    <string name="update_recovery_title">Aktualizuj Lineage Recovery</string>
-    <string name="update_recovery_description">Aktualizuje Lineage Recovery przy pierwszym uruchomieniu, po każdej aktualizacji.</string>
+    <string name="update_recovery_title">Aktualizuj Voltage Recovery</string>
+    <string name="update_recovery_description">Aktualizuje Voltage Recovery przy pierwszym uruchomieniu, po każdej aktualizacji.</string>
     <string name="update_recovery_warning">Recovery zostanie zaktualizowane po zakończeniu konfiguracji. Jeśli chcesz zachować obecną wersję, wyłącz tę funkcję.</string>
-    <string name="update_recovery_setting">Aktualizuj Lineage Recovery razem z aktualizacją systemu</string>
+    <string name="update_recovery_setting">Aktualizuj Voltage Recovery razem z aktualizacją systemu</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_services">Funkcje VoltageOS</string>
     <string name="services_pp_explanation">Te usługi są uruchomione w celu rozszerzenia możliwości twojego urządzenia. Dane będą używane zgodnie z polityką prywatności <xliff:g id="name" example="VoltageOS">%1$s</xliff:g>.</string>

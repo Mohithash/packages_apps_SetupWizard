@@ -31,10 +31,10 @@
     <string name="setup_location">定位服務</string>
     <string name="location_access_summary"><b>允許您許可的應用程式</b>使用您的定位資訊。可能包括您目前和過去的位置。</string>
     <string name="location_agps_access_summary">定位功能啟用後<b>將從網路上下載衛星輔助定位資料</b>，藉此增加定位的準確度及效能。</string>
-    <string name="update_recovery_title">更新 Lineage Recovery</string>
-    <string name="update_recovery_description">每次更新後，在第一次啟動時更新 Lineage Recovery。</string>
+    <string name="update_recovery_title">更新 Voltage Recovery</string>
+    <string name="update_recovery_description">每次更新後，在第一次啟動時更新 Voltage Recovery。</string>
     <string name="update_recovery_warning">一旦安裝完成，Recovery 就會更新。如果您希望保持原樣，請停用此功能。</string>
-    <string name="update_recovery_setting">與系統一起更新 Lineage Recovery</string>
+    <string name="update_recovery_setting">與系統一起更新 Voltage Recovery</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_services">VoltageOS 功能</string>
     <string name="services_pp_explanation">這些服務可協助您強化裝置的功能。資料將會根據 <xliff:g id="name" example="VoltageOS">%1$s</xliff:g> 的隱私權政策使用。</string>

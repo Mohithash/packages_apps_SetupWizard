@@ -31,10 +31,10 @@
     <string name="setup_location">Locatieservices</string>
     <string name="location_access_summary"><b>Apps toestaan die uw toestemming hebben gevraagd</b> om informatie over uw locatie te gebruiken. Dit kan uw huidige locatie en voorgaande locaties omvatten.</string>
     <string name="location_agps_access_summary">Wanneer locatie is ingeschakeld, <b>download satellietondersteuningsgegevens van internet</b>, wat de opstartprestatie van GPS aanzienlijk kan verbeteren.</string>
-    <string name="update_recovery_title">Lineage Recovery bijwerken</string>
-    <string name="update_recovery_description">Lineage Recovery updaten bij de eerste start na elke update</string>
+    <string name="update_recovery_title">Voltage Recovery bijwerken</string>
+    <string name="update_recovery_description">Voltage Recovery updaten bij de eerste start na elke update</string>
     <string name="update_recovery_warning">Recovery zal worden bijgewerkt zodra u de installatie hebt voltooid. Als u dit intact wilt houden, schakelt u deze functie uit.</string>
-    <string name="update_recovery_setting">Update Lineage Recovery naast het besturingssysteem</string>
+    <string name="update_recovery_setting">Update Voltage Recovery naast het besturingssysteem</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_services">Functies van VoltageOS</string>
     <string name="services_pp_explanation">Deze diensten worden gebruikt om de mogelijkheden van uw apparaat uit te breiden. Gegevens zullen worden gebruikt conform het privacybeleid van <xliff:g id="name" example="VoltageOS">%1$s</xliff:g></string>

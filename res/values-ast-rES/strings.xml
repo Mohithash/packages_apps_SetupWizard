@@ -29,8 +29,8 @@
     <string name="setup_location">Servicios de llocalización</string>
     <string name="location_access_summary"><b>Permitir que les aplicaciones que pidieren el to permisu</b> usen la información de la llocalización. Esta opción pue incluyir la llocalización actual y les anteriores.</string>
     <string name="location_agps_access_summary">Al activar la llocalización, <b>baxa los datos d\'asistencia satelitales d\'internet</b> que puen ameyorar muncho\'l rindimientu inicial del GPS</string>
-    <string name="update_recovery_title">Anovar el recovery de Lineage</string>
-    <string name="update_recovery_description">Anueva\'l recovery de Lineage nel primer arrinque de cada anovamientu.</string>
+    <string name="update_recovery_title">Anovar el recovery de Voltage</string>
+    <string name="update_recovery_description">Anueva\'l recovery de Voltage nel primer arrinque de cada anovamientu.</string>
     <string name="update_recovery_warning">El recovery anuévase namás que fine la configuración. Si nun lu quies tocar, desactiva esta función.</string>
     <string name="update_recovery_setting">Anovar el recovery xunto con VoltageOS</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>

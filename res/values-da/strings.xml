@@ -29,10 +29,10 @@
     <string name="setup_location">Lokalitetstjenester</string>
     <string name="location_access_summary"><b>Tillad apps, der har bedt om din tilladelse</b> at bruge din lokalitetsinformation. Dette kan inkludere din aktuelle lokalitet og tidligere lokaliteter.</string>
     <string name="location_agps_access_summary">Når lokation er tændt, <b>download satellit hjælpedata fra internettet</b>, som kan hjælpe meget med GPS opstartsfunktion</string>
-    <string name="update_recovery_title">Opdater Lineage Genddanelse</string>
-    <string name="update_recovery_description">Opdateringer Lineage Recovery ved første opstart efter hver opdatering.</string>
+    <string name="update_recovery_title">Opdater Voltage Genddanelse</string>
+    <string name="update_recovery_description">Opdateringer Voltage Recovery ved første opstart efter hver opdatering.</string>
     <string name="update_recovery_warning">Gendannelse vil blive opdateret, så snart du er færdig med opsætningen. Hvis du ønsker at holde det intakt, skal du deaktivere denne funktion.</string>
-    <string name="update_recovery_setting">Opdater Lineage Recovery sammen med OS</string>
+    <string name="update_recovery_setting">Opdater Voltage Recovery sammen med OS</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_services">VoltageOS-funktioner</string>
     <string name="services_pp_explanation">&lt;xliff:g id="name" example="VoltageOS"&gt;Disse tjenester virker for at udvide funktionerne på din enhed. Data vil blive brugt i overensstemmelse med  &lt;xliff:g id="name" example="VoltageOS"&gt;%1$s&lt;/xliff:g&gt;\'s privatlivspolitik.</string>

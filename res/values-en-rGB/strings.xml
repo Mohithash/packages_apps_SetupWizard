@@ -31,10 +31,10 @@
     <string name="setup_location">Location services</string>
     <string name="location_access_summary"><b>Allow apps that have asked your permission</b> to use your location information. This may include your current location and past locations.</string>
     <string name="location_agps_access_summary">When location is on, <b>download satellite assistance data from the Internet</b>, which can greatly improve the GPS startup performance.</string>
-    <string name="update_recovery_title">Update Lineage Recovery</string>
-    <string name="update_recovery_description">Updates Lineage Recovery on first boot subsequent to every update.</string>
+    <string name="update_recovery_title">Update Voltage Recovery</string>
+    <string name="update_recovery_description">Updates Voltage Recovery on first boot subsequent to every update.</string>
     <string name="update_recovery_warning">Recovery will be updated as soon as you finish the setup. If you wish to keep it intact, disable this feature.</string>
-    <string name="update_recovery_setting">Update Lineage Recovery alongside the OS</string>
+    <string name="update_recovery_setting">Update Voltage Recovery alongside the OS</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_services">VoltageOS features</string>
     <string name="services_pp_explanation">These services work for you to extend the capabilities of your device. Data will be used in accordance with <xliff:g id="name" example="VoltageOS">%1$s</xliff:g>\'s privacy policy.</string>
