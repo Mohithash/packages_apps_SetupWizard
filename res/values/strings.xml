@@ -51,6 +51,27 @@
     <string name="setup_location">Location services</string>
     <string name="location_access_summary"><b>Allow apps that have asked your permission</b> to use your location information. This may include your current location and past locations.</string>
     <string name="location_agps_access_summary">When location is on, <b>download satellite assistance data from the internet</b>, which can greatly improve the GPS startup performance.</string>
+    <string name="location_supl_title">Secure User Plane Location (SUPL)</string>
+    <string name="location_supl_desc">A-GNSS (assisted satellite geolocation) based on nearby cell towers. Turning this off makes acquiring a location lock significantly slower.</string>
+    <string name="location_supl_grapheneos_proxy">GrapheneOS proxy</string>
+    <string name="location_supl_standard_server">Standard server</string>
+    <string name="location_supl_off">Off</string>
+    <string name="location_psds_title">Predicted Satellite Data Service (PSDS)</string>
+    <string name="location_psds_desc">Periodically download static files containing satellite orbits, satellite statuses and time adjustment information. No query or data about you is sent to the server. Requires assisted GPS above to stay on.</string>
+    <string name="location_psds_grapheneos_server">GrapheneOS server</string>
+    <string name="location_psds_standard_server">Standard server</string>
+    <string name="location_psds_off">Off</string>
+    <string name="location_network_title">Network location</string>
+    <string name="location_network_desc">Estimate your location from nearby Wi-Fi networks and cell towers, which is useful indoors or before a satellite lock is acquired.</string>
+    <string name="location_network_grapheneos_apple_proxy">GrapheneOS Apple proxy</string>
+    <string name="location_network_apple">Apple server</string>
+    <string name="location_network_apple_china">Apple China server (required for China data)</string>
+    <string name="location_network_off">Off</string>
+    <string name="location_geocoder_title">Geocoder</string>
+    <string name="location_geocoder_desc">Translate coordinates into addresses and place names, and the other way around. Queries are sent to the selected server.</string>
+    <string name="location_geocoder_grapheneos_server">GrapheneOS server</string>
+    <string name="location_geocoder_openstreetmap">OpenStreetMap (Nominatim) server</string>
+    <string name="location_geocoder_off">Off</string>
 
     <!-- Recovery update page -->
     <string name="update_recovery_title">Update Voltage Recovery</string>
