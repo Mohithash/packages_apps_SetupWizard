@@ -53,6 +53,12 @@
     <WizardAction
         wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.LINEAGE_LOCATION_SETTINGS;end"
         id="location_settings">
+        <result wizard:action="appstore" />
+    </WizardAction>
+
+    <WizardAction
+        wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.VOLTAGE_APPSTORE;end"
+        id="appstore">
         <result wizard:action="device_specific" />
     </WizardAction>
 

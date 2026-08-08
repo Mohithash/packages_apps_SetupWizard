@@ -160,6 +160,18 @@ public class SetupWizardUtils {
         }
     }
 
+    public static boolean isGmsCoreInstalled(Context context) {
+        return isPackageInstalled(context, GMS_PACKAGE);
+    }
+
+    public static boolean isNetworkConnectedToInternet(Context context) {
+        ConnectivityManager cm = context.getSystemService(ConnectivityManager.class);
+        NetworkCapabilities networkCapabilities = cm.getNetworkCapabilities(cm.getActiveNetwork());
+        return networkCapabilities != null &&
+                networkCapabilities.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) &&
+                networkCapabilities.hasCapability(NetworkCapabilities.NET_CAPABILITY_VALIDATED);
+    }
+
     public static void finishSetupWizard(BaseSetupWizardActivity context) {
         if (LOGV) {
             Log.v(TAG, "finishSetupWizard");
