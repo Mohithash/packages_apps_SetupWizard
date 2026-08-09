@@ -30,61 +30,109 @@
                 <LinearLayout
                     android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/setup_card_spacing">
 
                     <LinearLayout
                         android:id="@+id/location"
                         android:orientation="horizontal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingLeft="@dimen/location_margin_left"
-                        android:paddingRight="@dimen/content_margin_right"
-                        android:background="?android:attr/selectableItemBackground"
+                        android:layout_marginBottom="@dimen/setup_card_spacing"
+                        android:paddingLeft="@dimen/setup_card_padding_horizontal"
+                        android:paddingRight="@dimen/setup_card_padding_horizontal"
+                        android:paddingTop="@dimen/setup_card_padding_vertical"
+                        android:paddingBottom="@dimen/setup_card_padding_vertical"
+                        android:background="@drawable/setup_card"
                         android:clickable="true">
 
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
 
-                        <CheckBox
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/location_access_title"
+                                android:textAppearance="?android:attr/textAppearanceListItem" />
+
+                            <TextView
+                                android:id="@+id/location_summary"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/location_access_summary"
+                                android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
+                        </LinearLayout>
+
+                        <androidx.appcompat.widget.SwitchCompat
                             android:id="@+id/location_checkbox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/location_text_margin_left"
                             android:duplicateParentState="true"
                             android:clickable="false"
-                            style="@style/SudCheckBox.Multiline" />
-
-                        <TextView
-                            android:id="@+id/location_summary"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/location_access_summary"
-                            style="@style/SudCheckBox.Multiline" />
-
+                            android:focusable="false" />
                     </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/location_category_gps"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/setup_card_padding_horizontal"
+                        android:paddingRight="@dimen/setup_card_padding_horizontal"
+                        android:paddingTop="@dimen/setup_category_padding_top"
+                        android:paddingBottom="@dimen/setup_category_padding_bottom"
+                        android:text="@string/location_category_gps"
+                        android:textStyle="bold"
+                        android:textColor="?android:attr/colorAccent"
+                        android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
 
                     <LinearLayout
                         android:id="@+id/location_agps"
                         android:orientation="horizontal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingLeft="@dimen/location_margin_left"
-                        android:paddingRight="@dimen/content_margin_right"
-                        android:background="?android:attr/selectableItemBackground"
+                        android:layout_marginBottom="@dimen/setup_card_spacing"
+                        android:paddingLeft="@dimen/setup_card_padding_horizontal"
+                        android:paddingRight="@dimen/setup_card_padding_horizontal"
+                        android:paddingTop="@dimen/setup_card_padding_vertical"
+                        android:paddingBottom="@dimen/setup_card_padding_vertical"
+                        android:background="@drawable/setup_card"
                         android:clickable="true">
 
-                        <CheckBox
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/location_agps_title"
+                                android:textAppearance="?android:attr/textAppearanceListItem" />
+
+                            <TextView
+                                android:id="@+id/location_agps_summary"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/location_agps_access_summary"
+                                android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
+                        </LinearLayout>
+
+                        <androidx.appcompat.widget.SwitchCompat
                             android:id="@+id/location_agps_checkbox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/location_text_margin_left"
                             android:duplicateParentState="true"
                             android:clickable="false"
-                            android:checked="true"
-                            style="@style/SudCheckBox.Multiline" />
-
-                        <TextView
-                            android:id="@+id/location_agps_summary"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/location_agps_access_summary"
-                            style="@style/SudCheckBox.Multiline" />
+                            android:focusable="false"
+                            android:checked="true" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -92,11 +140,12 @@
                         android:orientation="vertical"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingLeft="@dimen/location_margin_left"
-                        android:paddingRight="@dimen/content_margin_right"
-                        android:paddingTop="@dimen/location_item_padding_vertical"
-                        android:paddingBottom="@dimen/location_item_padding_vertical"
-                        android:background="?android:attr/selectableItemBackground"
+                        android:layout_marginBottom="@dimen/setup_card_spacing"
+                        android:paddingLeft="@dimen/setup_card_padding_horizontal"
+                        android:paddingRight="@dimen/setup_card_padding_horizontal"
+                        android:paddingTop="@dimen/setup_card_padding_vertical"
+                        android:paddingBottom="@dimen/setup_card_padding_vertical"
+                        android:background="@drawable/setup_card"
                         android:clickable="true">
 
                         <TextView
@@ -106,16 +155,17 @@
                             android:textAppearance="?android:attr/textAppearanceListItem" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="@string/location_supl_desc"
-                            android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
-
-                        <TextView
                             android:id="@+id/location_supl_summary"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:textStyle="bold"
                             android:textColor="?android:attr/colorAccent"
+                            android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/location_supl_desc"
                             android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
                     </LinearLayout>
 
@@ -124,11 +174,12 @@
                         android:orientation="vertical"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingLeft="@dimen/location_margin_left"
-                        android:paddingRight="@dimen/content_margin_right"
-                        android:paddingTop="@dimen/location_item_padding_vertical"
-                        android:paddingBottom="@dimen/location_item_padding_vertical"
-                        android:background="?android:attr/selectableItemBackground"
+                        android:layout_marginBottom="@dimen/setup_card_spacing"
+                        android:paddingLeft="@dimen/setup_card_padding_horizontal"
+                        android:paddingRight="@dimen/setup_card_padding_horizontal"
+                        android:paddingTop="@dimen/setup_card_padding_vertical"
+                        android:paddingBottom="@dimen/setup_card_padding_vertical"
+                        android:background="@drawable/setup_card"
                         android:clickable="true">
 
                         <TextView
@@ -138,29 +189,44 @@
                             android:textAppearance="?android:attr/textAppearanceListItem" />
 
                         <TextView
+                            android:id="@+id/location_psds_summary"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textColor="?android:attr/colorAccent"
+                            android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
+
+                        <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@string/location_psds_desc"
                             android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
-
-                        <TextView
-                            android:id="@+id/location_psds_summary"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textColor="?android:attr/colorAccent"
-                            android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
                     </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/location_category_services"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/setup_card_padding_horizontal"
+                        android:paddingRight="@dimen/setup_card_padding_horizontal"
+                        android:paddingTop="@dimen/setup_category_padding_top"
+                        android:paddingBottom="@dimen/setup_category_padding_bottom"
+                        android:text="@string/location_category_services"
+                        android:textStyle="bold"
+                        android:textColor="?android:attr/colorAccent"
+                        android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
 
                     <LinearLayout
                         android:id="@+id/location_network"
                         android:orientation="vertical"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingLeft="@dimen/location_margin_left"
-                        android:paddingRight="@dimen/content_margin_right"
-                        android:paddingTop="@dimen/location_item_padding_vertical"
-                        android:paddingBottom="@dimen/location_item_padding_vertical"
-                        android:background="?android:attr/selectableItemBackground"
+                        android:layout_marginBottom="@dimen/setup_card_spacing"
+                        android:paddingLeft="@dimen/setup_card_padding_horizontal"
+                        android:paddingRight="@dimen/setup_card_padding_horizontal"
+                        android:paddingTop="@dimen/setup_card_padding_vertical"
+                        android:paddingBottom="@dimen/setup_card_padding_vertical"
+                        android:background="@drawable/setup_card"
                         android:clickable="true">
 
                         <TextView
@@ -170,16 +236,17 @@
                             android:textAppearance="?android:attr/textAppearanceListItem" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="@string/location_network_desc"
-                            android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
-
-                        <TextView
                             android:id="@+id/location_network_summary"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:textStyle="bold"
                             android:textColor="?android:attr/colorAccent"
+                            android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/location_network_desc"
                             android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
                     </LinearLayout>
 
@@ -188,11 +255,11 @@
                         android:orientation="vertical"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingLeft="@dimen/location_margin_left"
-                        android:paddingRight="@dimen/content_margin_right"
-                        android:paddingTop="@dimen/location_item_padding_vertical"
-                        android:paddingBottom="@dimen/location_item_padding_vertical"
-                        android:background="?android:attr/selectableItemBackground"
+                        android:paddingLeft="@dimen/setup_card_padding_horizontal"
+                        android:paddingRight="@dimen/setup_card_padding_horizontal"
+                        android:paddingTop="@dimen/setup_card_padding_vertical"
+                        android:paddingBottom="@dimen/setup_card_padding_vertical"
+                        android:background="@drawable/setup_card"
                         android:clickable="true">
 
                         <TextView
@@ -202,16 +269,17 @@
                             android:textAppearance="?android:attr/textAppearanceListItem" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="@string/location_geocoder_desc"
-                            android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
-
-                        <TextView
                             android:id="@+id/location_geocoder_summary"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:textStyle="bold"
                             android:textColor="?android:attr/colorAccent"
+                            android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/location_geocoder_desc"
                             android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
                     </LinearLayout>
 

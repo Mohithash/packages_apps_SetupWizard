@@ -30,38 +30,56 @@
                     android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="@dimen/location_margin_left"
-                    android:paddingRight="@dimen/content_margin_right">
+                    android:paddingBottom="@dimen/setup_card_spacing">
 
-                    <TextView
+                    <LinearLayout
+                        android:orientation="vertical"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingTop="@dimen/appstore_padding_vertical"
-                        android:paddingBottom="@dimen/appstore_padding_vertical"
-                        android:text="@string/appstore_description"
-                        android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
+                        android:paddingLeft="@dimen/setup_card_padding_horizontal"
+                        android:paddingRight="@dimen/setup_card_padding_horizontal"
+                        android:paddingTop="@dimen/setup_card_padding_vertical"
+                        android:paddingBottom="@dimen/setup_card_padding_vertical"
+                        android:background="@drawable/setup_card">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/appstore_description"
+                            android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
+
+                        <ProgressBar
+                            android:id="@+id/appstore_progress"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/appstore_padding_vertical"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/appstore_status"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/appstore_padding_vertical"
+                            android:textStyle="bold"
+                            android:textColor="?android:attr/colorAccent"
+                            android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
+                    </LinearLayout>
 
                     <Button
                         android:id="@+id/appstore_install_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/setup_card_padding_vertical"
+                        android:paddingLeft="@dimen/setup_button_padding_horizontal"
+                        android:paddingRight="@dimen/setup_button_padding_horizontal"
+                        android:paddingTop="@dimen/setup_button_padding_vertical"
+                        android:paddingBottom="@dimen/setup_button_padding_vertical"
+                        android:background="@drawable/setup_button"
+                        android:textColor="@color/setup_button_text"
+                        android:textAllCaps="false"
+                        android:stateListAnimator="@null"
                         android:text="@string/appstore_install" />
-
-                    <ProgressBar
-                        android:id="@+id/appstore_progress"
-                        style="?android:attr/progressBarStyleHorizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/appstore_padding_vertical"
-                        android:visibility="gone" />
-
-                    <TextView
-                        android:id="@+id/appstore_status"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingTop="@dimen/appstore_padding_vertical"
-                        android:textColor="?android:attr/colorAccent"
-                        android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
 
                 </LinearLayout>
             </ScrollView>

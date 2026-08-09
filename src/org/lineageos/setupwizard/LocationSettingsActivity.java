@@ -17,7 +17,7 @@ import android.os.Process;
 import android.os.UserManager;
 import android.provider.Settings;
 import android.view.View;
-import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
@@ -29,8 +29,8 @@ public class LocationSettingsActivity extends BaseSetupWizardActivity {
     private static final String KEY_NETWORK_LOCATION = "network_location";
     private static final String KEY_GEOCODER = "geocoder";
 
-    private CheckBox mLocationAccess;
-    private CheckBox mLocationAgpsAccess;
+    private CompoundButton mLocationAccess;
+    private CompoundButton mLocationAgpsAccess;
 
     private ChoicePicker mSuplPicker;
     private ChoicePicker mPsdsPicker;
@@ -60,6 +60,8 @@ public class LocationSettingsActivity extends BaseSetupWizardActivity {
                     v -> mLocationAgpsAccess.setChecked(!mLocationAgpsAccess.isChecked()));
         } else {
             locationAgpsAccessView.setVisibility(View.GONE);
+            findViewById(R.id.location_category_gps).setVisibility(View.GONE);
+            findViewById(R.id.location_category_services).setVisibility(View.GONE);
         }
 
         boolean hasGpsFeature = getPackageManager()

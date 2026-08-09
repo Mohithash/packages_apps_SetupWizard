@@ -5,4 +5,8 @@
 -->
 <resources>
     <color name="divider">#40ffffff</color>
+
+    <color name="setup_card_background">@android:color/system_neutral2_800</color>
+    <color name="setup_button_background">@android:color/system_accent1_200</color>
+    <color name="setup_button_text">@android:color/system_accent1_900</color>
 </resources>

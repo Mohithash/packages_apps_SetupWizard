@@ -49,6 +49,10 @@
 
     <!-- Location page -->
     <string name="setup_location">Location services</string>
+    <string name="location_access_title">Location access</string>
+    <string name="location_agps_title">Assisted GPS</string>
+    <string name="location_category_gps">GPS</string>
+    <string name="location_category_services">Other services</string>
     <string name="location_access_summary"><b>Allow apps that have asked your permission</b> to use your location information. This may include your current location and past locations.</string>
     <string name="location_agps_access_summary">When location is on, <b>download satellite assistance data from the internet</b>, which can greatly improve the GPS startup performance.</string>
     <string name="location_supl_title">Secure User Plane Location (SUPL)</string>
