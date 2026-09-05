@@ -57,7 +57,7 @@
     </WizardAction>
 
     <WizardAction
-        wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.VOLTAGE_APPSTORE;end"
+        wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.BESTROM_APPSTORE;end"
         id="appstore">
         <result wizard:action="device_specific" />
     </WizardAction>

@@ -188,7 +188,7 @@
             android:exported="false"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.lineageos.setupwizard.VOLTAGE_APPSTORE" />
+                <action android:name="org.lineageos.setupwizard.BESTROM_APPSTORE" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
