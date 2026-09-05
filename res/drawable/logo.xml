@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     SPDX-FileCopyrightText: The LineageOS Project
-     SPDX-FileCopyrightText: 2026 VoltageOS
      SPDX-FileCopyrightText: 2026 BestROM
      SPDX-License-Identifier: Apache-2.0
--->
-<!--
-     BestROM brand mark: the dot-matrix lowercase "b" - a four-dot stem with a
-     two-by-two bowl, matching the dotted lettering of the boot animation
-     (vendor/bestrom/bootanimation). Kept at the same name, intrinsic size and
-     viewport as the logo it replaces so every layout referencing @drawable/logo
-     is unaffected.
 
-     Dots are r=24 on a 62 pitch, centred in the viewport (x 114..286,
-     y 83..317). Grey #8C919B on transparent, so the mark reads correctly on the
-     black setup background and is not tinted by the theme accent.
+     BestROM brand mark: the 5x7 dot-matrix "B" (rows 4-2-2-4-2-2-4, twenty
+     dots) taken from the canonical boot animation
+     (device/xiaomi/peridot/prebuilt/bootanimation/bootanimation.zip).
+     Dots are r=17.9 on a 48 pitch (radius/pitch 0.372, as in the animation),
+     centred in the 400x400 viewport, with no background. The colour comes
+     from @color/bestrom_mark (grey-600 on light surfaces, grey-300 #D1D5DB
+     on dark ones) so the mark stays legible either way and is never tinted
+     by the accent.
+     Kept at the same name, intrinsic size and viewport as the LineageOS logo it replaces, so welcome_activity/finish_activity need no change.
 -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="400dp"
     android:height="400dp"
     android:viewportWidth="400"
     android:viewportHeight="400">
-
     <path
         android:fillColor="@color/bestrom_mark"
-        android:pathData="M138,83a24,24 0,1,0 0,48a24,24 0,1,0 0,-48M138,145a24,24 0,1,0 0,48a24,24 0,1,0 0,-48M138,207a24,24 0,1,0 0,48a24,24 0,1,0 0,-48M138,269a24,24 0,1,0 0,48a24,24 0,1,0 0,-48M200,145a24,24 0,1,0 0,48a24,24 0,1,0 0,-48M262,145a24,24 0,1,0 0,48a24,24 0,1,0 0,-48M200,269a24,24 0,1,0 0,48a24,24 0,1,0 0,-48M262,269a24,24 0,1,0 0,48a24,24 0,1,0 0,-48" />
-
+        android:pathData="M86.1,56a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0M134.1,56a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0M182.1,56a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0M230.1,56a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0M86.1,104a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0M278.1,104a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0M86.1,152a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0M278.1,152a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0M86.1,200a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0M134.1,200a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0M182.1,200a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0M230.1,200a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0M86.1,248a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0M278.1,248a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0M86.1,296a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0M278.1,296a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0M86.1,344a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0M134.1,344a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0M182.1,344a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0M230.1,344a17.9,17.9 0 1,0 35.8,0a17.9,17.9 0 1,0 -35.8,0" />
 </vector>
