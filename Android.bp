@@ -5,13 +5,13 @@
 //
 
 android_app {
-    name: "VoltageSetupWizard",
+    name: "BestromSetupWizard",
 
     srcs: ["src/**/*.java"],
 
     certificate: "platform",
     privileged: true,
-    privapp_allowlist: "com.voltageos.setupwizard.xml",
+    privapp_allowlist: "org.bestrom.setupwizard.xml",
     system_ext_specific: true,
     platform_apis: true,
 

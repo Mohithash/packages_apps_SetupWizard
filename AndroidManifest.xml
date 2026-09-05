@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.lineageos.setupwizard"
+    package="org.bestrom.setupwizard"
     android:versionCode="5"
     android:sharedUserId="android.uid.system">
 
@@ -97,7 +97,7 @@
             android:exported="false"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.lineageos.setupwizard.LINEAGE_BLUETOOTH_SETUP" />
+                <action android:name="org.bestrom.setupwizard.LINEAGE_BLUETOOTH_SETUP" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -110,7 +110,7 @@
             android:exported="false"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.lineageos.setupwizard.LINEAGE_WELCOME" />
+                <action android:name="org.bestrom.setupwizard.LINEAGE_WELCOME" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -123,7 +123,7 @@
             android:exported="false"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.lineageos.setupwizard.LINEAGE_LOCALE" />
+                <action android:name="org.bestrom.setupwizard.LINEAGE_LOCALE" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -136,7 +136,7 @@
             android:exported="false"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.lineageos.setupwizard.LINEAGE_DATETIME" />
+                <action android:name="org.bestrom.setupwizard.LINEAGE_DATETIME" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -149,7 +149,7 @@
             android:exported="false"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.lineageos.setupwizard.LINEAGE_SIM_MISSING" />
+                <action android:name="org.bestrom.setupwizard.LINEAGE_SIM_MISSING" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -162,7 +162,7 @@
             android:exported="false"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.lineageos.setupwizard.LINEAGE_NETWORK_SETUP" />
+                <action android:name="org.bestrom.setupwizard.LINEAGE_NETWORK_SETUP" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -175,7 +175,7 @@
             android:exported="false"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.lineageos.setupwizard.LINEAGE_LOCATION_SETTINGS" />
+                <action android:name="org.bestrom.setupwizard.LINEAGE_LOCATION_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -188,7 +188,7 @@
             android:exported="false"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.lineageos.setupwizard.BESTROM_APPSTORE" />
+                <action android:name="org.bestrom.setupwizard.BESTROM_APPSTORE" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -200,7 +200,7 @@
             android:exported="true"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.lineageos.setupwizard.DEVICE_SPECIFIC" />
+                <action android:name="org.bestrom.setupwizard.DEVICE_SPECIFIC" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -213,7 +213,7 @@
             android:exported="true"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.lineageos.setupwizard.NAVIGATION_SETTINGS" />
+                <action android:name="org.bestrom.setupwizard.NAVIGATION_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -226,7 +226,7 @@
             android:exported="false"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.lineageos.setupwizard.LINEAGE_BIOMETRIC_SETTINGS" />
+                <action android:name="org.bestrom.setupwizard.LINEAGE_BIOMETRIC_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -239,7 +239,7 @@
             android:exported="false"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.lineageos.setupwizard.LINEAGE_LOCKSCREEN_SETTINGS" />
+                <action android:name="org.bestrom.setupwizard.LINEAGE_LOCKSCREEN_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -252,7 +252,7 @@
             android:exported="true"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.lineageos.setupwizard.LINEAGE_RESTORE_BACKUP" />
+                <action android:name="org.bestrom.setupwizard.LINEAGE_RESTORE_BACKUP" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -265,7 +265,7 @@
             android:exported="true"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.lineageos.setupwizard.THEME_SETTINGS" />
+                <action android:name="org.bestrom.setupwizard.THEME_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

@@ -5,11 +5,11 @@
 
 adb root
 wait ${!}
-adb shell pm enable org.lineageos.setupwizard || true
+adb shell pm enable org.bestrom.setupwizard || true
 wait ${!}
-adb shell pm enable org.lineageos.setupwizard/.SetupWizardActivity || true
+adb shell pm enable org.bestrom.setupwizard/.SetupWizardActivity || true
 wait ${!}
-adb shell pm enable org.lineageos.setupwizard/.DeviceSpecificActivity || true
+adb shell pm enable org.bestrom.setupwizard/.DeviceSpecificActivity || true
 wait ${!}
 if adb shell pm list packages | grep com.google.android.setupwizard; then
   adb shell pm disable com.google.android.setupwizard || true
@@ -19,4 +19,4 @@ if adb shell pm list packages | grep com.android.provision; then
   adb shell pm disable com.android.provision || true
   wait ${!}
 fi
-adb shell am start -c android.intent.category.HOME org.lineageos.setupwizard/.SetupWizardActivity
+adb shell am start -c android.intent.category.HOME org.bestrom.setupwizard/.SetupWizardActivity

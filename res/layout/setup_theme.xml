@@ -33,7 +33,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <view class="org.lineageos.setupwizard.widget.TouchBlockingFrameLayout"
+                    <view class="org.bestrom.setupwizard.widget.TouchBlockingFrameLayout"
                         android:id="@+id/frame"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
@@ -47,14 +47,14 @@
                             android:paddingBottom="@dimen/conversation_spacing_bottom"
                             android:orientation="vertical">
 
-                            <org.lineageos.setupwizard.widget.ConversationMessageView
+                            <org.bestrom.setupwizard.widget.ConversationMessageView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 app:incoming="true"
                                 app:messageText="@string/accessibility_text_reading_conversation_message_1"
                                 app:iconBackgroundColor="@color/message_icon_background_incoming" />
 
-                            <org.lineageos.setupwizard.widget.ConversationMessageView
+                            <org.bestrom.setupwizard.widget.ConversationMessageView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 app:incoming="false"
@@ -83,7 +83,7 @@
             </ScrollView>
         </FrameLayout>
 
-        <org.lineageos.setupwizard.NavigationLayout
+        <org.bestrom.setupwizard.NavigationLayout
             android:id="@+id/navigation_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />

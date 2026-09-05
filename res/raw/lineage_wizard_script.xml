@@ -8,86 +8,86 @@
     wizard:firstAction="bluetooth_setup">
 
     <WizardAction
-        wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.LINEAGE_BLUETOOTH_SETUP;end"
+        wizard:uri="intent:#Intent;action=org.bestrom.setupwizard.LINEAGE_BLUETOOTH_SETUP;end"
         id="bluetooth_setup">
         <result wizard:action="welcome" />
     </WizardAction>
 
     <WizardAction
-        wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.LINEAGE_WELCOME;end"
+        wizard:uri="intent:#Intent;action=org.bestrom.setupwizard.LINEAGE_WELCOME;end"
         id="welcome">
         <result wizard:name="skip" wizard:resultCode="1" />
         <result wizard:action="locale" />
     </WizardAction>
 
     <WizardAction
-        wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.LINEAGE_LOCALE;end"
+        wizard:uri="intent:#Intent;action=org.bestrom.setupwizard.LINEAGE_LOCALE;end"
         id="locale">
         <result wizard:action="sim_missing" />
     </WizardAction>
 
     <WizardAction
-        wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.LINEAGE_SIM_MISSING;end"
+        wizard:uri="intent:#Intent;action=org.bestrom.setupwizard.LINEAGE_SIM_MISSING;end"
         id="sim_missing">
         <result wizard:action="network_setup" />
     </WizardAction>
 
     <WizardAction
-        wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.LINEAGE_NETWORK_SETUP;end"
+        wizard:uri="intent:#Intent;action=org.bestrom.setupwizard.LINEAGE_NETWORK_SETUP;end"
         id="network_setup">
         <result wizard:action="datetime" />
     </WizardAction>
 
     <WizardAction
-        wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.LINEAGE_DATETIME;end"
+        wizard:uri="intent:#Intent;action=org.bestrom.setupwizard.LINEAGE_DATETIME;end"
         id="datetime">
         <result wizard:action="restore" />
     </WizardAction>
 
     <WizardAction
-        wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.LINEAGE_RESTORE_BACKUP;end"
+        wizard:uri="intent:#Intent;action=org.bestrom.setupwizard.LINEAGE_RESTORE_BACKUP;end"
         id="restore">
         <result wizard:action="location_settings" />
     </WizardAction>
 
     <WizardAction
-        wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.LINEAGE_LOCATION_SETTINGS;end"
+        wizard:uri="intent:#Intent;action=org.bestrom.setupwizard.LINEAGE_LOCATION_SETTINGS;end"
         id="location_settings">
         <result wizard:action="appstore" />
     </WizardAction>
 
     <WizardAction
-        wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.BESTROM_APPSTORE;end"
+        wizard:uri="intent:#Intent;action=org.bestrom.setupwizard.BESTROM_APPSTORE;end"
         id="appstore">
         <result wizard:action="device_specific" />
     </WizardAction>
 
     <WizardAction
-        wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.DEVICE_SPECIFIC;end"
+        wizard:uri="intent:#Intent;action=org.bestrom.setupwizard.DEVICE_SPECIFIC;end"
         id="device_specific">
         <result wizard:action="biometric_settings" />
     </WizardAction>
 
     <WizardAction
-        wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.LINEAGE_BIOMETRIC_SETTINGS;end"
+        wizard:uri="intent:#Intent;action=org.bestrom.setupwizard.LINEAGE_BIOMETRIC_SETTINGS;end"
         id="biometric_settings">
         <result wizard:action="lockscreen_settings" />
     </WizardAction>
 
     <WizardAction
-        wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.LINEAGE_LOCKSCREEN_SETTINGS;end"
+        wizard:uri="intent:#Intent;action=org.bestrom.setupwizard.LINEAGE_LOCKSCREEN_SETTINGS;end"
         id="lockscreen_settings">
         <result wizard:action="theme_settings" />
     </WizardAction>
 
     <WizardAction
-        wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.THEME_SETTINGS;end"
+        wizard:uri="intent:#Intent;action=org.bestrom.setupwizard.THEME_SETTINGS;end"
         id="theme_settings">
         <result wizard:action="navigation_settings" />
     </WizardAction>
 
     <WizardAction
-        wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.NAVIGATION_SETTINGS;end"
+        wizard:uri="intent:#Intent;action=org.bestrom.setupwizard.NAVIGATION_SETTINGS;end"
         id="navigation_settings">
         <result wizard:action="finish" />
     </WizardAction>
