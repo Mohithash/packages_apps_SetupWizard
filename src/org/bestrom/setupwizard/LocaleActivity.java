@@ -30,14 +30,24 @@ import com.google.android.setupcompat.util.SystemBarHelper;
 
 import org.bestrom.setupwizard.widget.LocalePicker;
 
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
+import java.util.Set;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class LocaleActivity extends BaseSetupWizardActivity {
 
     private static final String TAG = LocaleActivity.class.getSimpleName();
+
+    // ISO 3166 user-assigned regions used by AOSP pseudo-locales: en-XA (pseudo-accents),
+    // ar-XB (pseudo-bidi) and the checked-in en-XC. LocaleList.isPseudoLocale() only knows
+    // the first two, so en-XC leaks through LocalePicker.getAllAssetLocales() and shows up
+    // in the wheel as a second "English (...)" row. XK is Kosovo, so filter on the explicit
+    // set rather than on a "region starts with X" prefix.
+    private static final Set<String> PSEUDO_LOCALE_REGIONS = Set.of("XA", "XB", "XC");
 
     private ArrayAdapter<com.android.internal.app.LocalePicker.LocaleInfo> mLocaleAdapter;
     private Locale mCurrentLocale;
@@ -122,18 +132,46 @@ public class LocaleActivity extends BaseSetupWizardActivity {
                 R.layout.locale_picker_item, R.id.locale);
         mCurrentLocale = Locale.getDefault();
         fetchAndUpdateSimLocale();
-        mAdapterIndices = new int[mLocaleAdapter.getCount()];
+        final int count = mLocaleAdapter.getCount();
+        final int[] indices = new int[count];
+        final String[] allLabels = new String[count];
+        final Set<String> seenLabels = new HashSet<>(count);
         int currentLocaleIndex = 0;
-        String[] labels = new String[mLocaleAdapter.getCount()];
-        for (int i = 0; i < mAdapterIndices.length; i++) {
-            com.android.internal.app.LocalePicker.LocaleInfo localLocaleInfo =
+        int kept = 0;
+        for (int i = 0; i < count; i++) {
+            final com.android.internal.app.LocalePicker.LocaleInfo localLocaleInfo =
                     mLocaleAdapter.getItem(i);
-            Locale localLocale = localLocaleInfo.getLocale();
-            if (localLocale.equals(mCurrentLocale)) {
-                currentLocaleIndex = i;
+            if (localLocaleInfo == null) {
+                continue;
             }
-            mAdapterIndices[i] = i;
-            labels[i] = localLocaleInfo.getLabel();
+            final Locale localLocale = localLocaleInfo.getLocale();
+            final String label = localLocaleInfo.getLabel();
+            if (localLocale == null || label == null) {
+                continue;
+            }
+            // getAllAssetLocales() enumerates the raw framework asset locales and drops
+            // pseudo-locales only via LocaleList.isPseudoLocale() (en-XA/ar-XB), so the
+            // checked-in en-XC pseudo-locale shows up as a stray extra English row. It
+            // also never de-duplicates the visible labels.
+            if (PSEUDO_LOCALE_REGIONS.contains(localLocale.getCountry())
+                    || !seenLabels.add(label)) {
+                continue;
+            }
+            if (localLocale.equals(mCurrentLocale)) {
+                // Index into the filtered list, not into the adapter: the wheel wraps,
+                // so an out-of-range preselection would silently land on a random row.
+                currentLocaleIndex = kept;
+            }
+            indices[kept] = i;
+            allLabels[kept] = label;
+            kept++;
+        }
+        mAdapterIndices = Arrays.copyOf(indices, kept);
+        final String[] labels = Arrays.copyOf(allLabels, kept);
+        if (labels.length == 0) {
+            // setMaxValue(-1) would throw; leave the picker empty rather than crash.
+            Log.e(TAG, "No selectable locales; leaving the picker empty");
+            return;
         }
         mLanguagePicker.setDisplayedValues(labels);
         mLanguagePicker.setMaxValue(labels.length - 1);
